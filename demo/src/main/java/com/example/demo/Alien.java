@@ -28,7 +28,7 @@ public class Alien {
         this.com = com;
     }
 
-    public void code(){
+    public void code() {
         com.compile();
     }
 }
