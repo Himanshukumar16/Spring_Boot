@@ -1,10 +1,9 @@
-package com.example.demo;
+package com.example.demo.model;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Desktop implements Computer{
+public class Desktop implements Computer {
     @Override
     public void compile() {
         System.out.println("Compiling in desktop !");
